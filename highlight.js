@@ -636,6 +636,7 @@ hljs.LANGUAGES['ruby'] = require('./ruby.js')(hljs);
 hljs.LANGUAGES['haml'] = require('./haml.js')(hljs);
 hljs.LANGUAGES['handlebars'] = require('./handlebars.js')(hljs);
 hljs.LANGUAGES['haskell'] = require('./haskell.js')(hljs);
+hljs.LANGUAGES['http-stardog'] = require('./http-stardog.js')(hljs);
 hljs.LANGUAGES['http'] = require('./http.js')(hljs);
 hljs.LANGUAGES['ini'] = require('./ini.js')(hljs);
 hljs.LANGUAGES['java'] = require('./java.js')(hljs);

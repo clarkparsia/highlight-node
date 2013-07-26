@@ -1,16 +1,10 @@
 {
-  "main": "./highlight.js", 
-  "scripts": {}, 
-  "keywords": [
-    "highlight", 
-    "syntax"
-  ], 
-  "description": "Syntax highlighting with language autodetection.", 
   "version": "7.3.0", 
-  "author": {
-    "name": "Ivan Sagalaev", 
-    "email": "maniac@softwaremaniacs.org"
+  "scripts": {}, 
+  "bugs": {
+    "url": "https://github.com/isagalaev/highlight.js/issues"
   }, 
+  "main": "./highlight.js", 
   "contributors": [
     {
       "name": "Peter Leonov", 
@@ -318,14 +312,19 @@
     }
   ], 
   "name": "highlight.js", 
-  "homepage": "http://softwaremaniacs.org/soft/highlight/en/", 
-  "bugs": {
-    "url": "https://github.com/isagalaev/highlight.js/issues"
-  }, 
   "repository": {
-    "url": "git://github.com/isagalaev/highlight.js.git", 
-    "type": "git"
+    "type": "git", 
+    "url": "git://github.com/isagalaev/highlight.js.git"
   }, 
+  "keywords": [
+    "highlight", 
+    "syntax"
+  ], 
+  "author": {
+    "name": "Ivan Sagalaev", 
+    "email": "maniac@softwaremaniacs.org"
+  }, 
+  "description": "Syntax highlighting with language autodetection.", 
   "licenses": [
     {
       "type": "BSD"
@@ -333,5 +332,6 @@
   ], 
   "engines": {
     "node": "*"
-  }
+  }, 
+  "homepage": "http://softwaremaniacs.org/soft/highlight/en/"
 }
